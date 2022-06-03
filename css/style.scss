@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+// ============= header css ==============
+.header__section {
+    padding: 10px 0px;
+    background: #EBEEF2;
+
+    .header_topLeft_contact {
+        display: flex;
+        align-items: center;
+        gap: 42px;
+
+        .header__phone {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 500;
+
+            i {
+                font-size: 23px;
+                color: #74BE42;
+            }
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .header_topRight_dropdown {
+        display: flex;
+        justify-content: flex-end;
+        gap: 41px;
+
+        select {
+            background: none;
+            border: none;
+        }
+
+        .header__country {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            i {
+                font-size: 15px;
+            }
+
+            .country {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .header__price {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            i {
+                font-size: 15px;
+            }
+
+            .country {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .header__login {
+            .login__btn {
+                background: #F1F8EC;
+                border: 1px solid #F1F8EC;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #74BE42;
+                padding: 8px 14px;
+                transition: 0.3s;
+
+                &:hover {
+                    background: #74BE42;
+                    color: #F1F8EC;
+                    border: 1px solid #74BE42;
+                }
+            }
+        }
+    }
+}
+
+// ============== header logo css ===============
+.headerNavigation__section {
+    .header__logo {
+        padding: 0;
+
+        img {
+            width: 75%;
+        }
+    }
+
+    .navi {
+        align-items: center;
+        gap: 55px;
+
+        li {
+            padding: 10px 0px;
+
+            a {
+                font-weight: 500;
+                color: #000000;
+                transition: 0.3s;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+
+                &:hover {
+                    color: #74BE42;
+                }
+            }
+        }
+
+        .menu {
+
+            position: relative;
+
+            &:hover .sub__menu {
+                top: 100%;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .sub__menu {
+                position: absolute;
+                top: 120%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 150px;
+                background: #F1F8EC;
+                border: 1px solid #F1F8EC;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                border-radius: 8px;
+                overflow: hidden;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.5s;
+
+                ul {
+
+                    li {
+                        padding: 6px 10px;
+                        transition: 0.3s;
+
+                        &:hover {
+                            background: #74BE42;
+
+                        }
+
+                        &:hover a {
+                            color: #F1F8EC;
+                        }
+
+                        a {
+                            color: #74BE42;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+// ================ hero banner css ==================
+.heroBnnr__section {
+    padding: 150px 0px 220px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .banner__content {
+        h6 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .heading {
+            position: relative;
+
+            h1 {
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 80px;
+                letter-spacing: -0.02em;
+                color: #000000;
+            }
+
+            .vector {
+                position: absolute;
+                top: -13px;
+                left: -24px;
+                z-index: -1;
+                width: 27%;
+            }
+        }
+    }
+}
+
+// =============== booking section css ================
+.booking__section {
+    padding: 60px 0px;
+
+    .booking__tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .b__tab {
+            width: 80%;
+
+            .bk_tabBtn {
+                height: 40px;
+                border: none;
+                .bk__link1{
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 0px;
+                }
+                .bk__link2{
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 10px;
+                }
+                .nav-link{
+                    background: #09101D;
+                    border: none;
+                    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    font-size: 15px;
+                    height: 40px;
+                    padding: 5px 21px;
+                    color: white;
+                }
+                .active{
+                    background: #F1F8EC;
+                    color: #000000;
+                }
+            }
+
+            .bk_tabContent {
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-right-radius: 20px;
+                background: #ffff;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 30px;
+            }
+        }
+    }
+}

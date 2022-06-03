@@ -1,18 +1,187 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <!-- bootstra css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- remix icon css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eTravel+</title>
+  <!-- bootstra css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- remix icon css -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- fontawsm -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header__section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="header_topLeft_contact">
+            <div class="header__phone">
+              <i class="ri-phone-line"></i>
+              <p>+9 02129825417</p>
+            </div>
+            <div class="header__phone">
+              <i class="fa-regular fa-envelope"></i>
+              <a href="#">contact@etravelplus.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="header_topRight_dropdown">
+            <div class="header__country">
+              <div class="country">
+                <img src="img/US.png" alt="">
+                <span>english</span>
+              </div>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="header__price">
+              <div class="country">
+                <span>eur</span>
+              </div>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="header__login">
+              <button class="login__btn">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- =================== HEADER NAVIGATION START ==================== -->
+    <section class="headerNavigation__section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-lg py-3">
+              <div class="container-fluid">
+                <a class="navbar-brand header__logo" href="index.html">
+                  <img src="img/logo 1.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navi">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li class="menu">
+                      <a href="#">Company<i class="ri-arrow-down-s-line"></i></a>
+                      <div class="sub__menu">
+                        <ul>
+                          <li><a href="#">Qatar</a></li>
+                          <li><a href="#">Canada</a></li>
+                          <li><a href="#">Bangladesh</a></li>
+                          <li><a href="#">India</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =================== HEADER NAVIGATION END ==================== -->
+    <!-- ================= HERO BANNER START ================= -->
+    <section class="heroBnnr__section" style="background-image: url('img/Map\ with\ Illustration.png');">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+            <div class="banner__content">
+              <h6>Book Flight Ticket</h6>
+              <div class="heading">
+                <h1>Explore Hundreds of Travel Destinations around the world</h1>
+                <div class="vector">
+                  <img src="img/Vector.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= HERO BANNER END ================= -->
+    <!-- ================ BOOKING SECTION START ================= -->
+    <section class="booking__section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="booking__tab">
+              <div class="b__tab">
+
+                <nav>
+                  <div class="nav nav-tabs bk_tabBtn" id="nav-tab" role="tablist">
+                    <button class="nav-link bk__link1 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                      type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                      <div class="vc">
+                        <img src="img/Vector3.png" alt="">
+                      </div>
+                      Flights
+                    </button>
+                    <button class="nav-link bk__link2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                      type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                      <div class="vc">
+                        <img src="img/Vector (1).png" alt="">
+                      </div>
+                      Hotels
+                    </button>
+                  </div>
+                </nav>
+
+                <div class="tab-content bk_tabContent" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                    tabindex="0">
+                    <div class="flight__type">
+                      <div class="type">
+                        <p>Flight Type:</p>
+                        <div class="flight__redio">
+                          <h6>qwqwq</h6>
+                        </div>
+                      </div>
+                      <div class="plane__class">
+                        <div class="selector">
+                          <p>Business Class <i class="ri-arrow-down-s-line"></i></p>
+                          <!-- <div class="option">
+                            <ul>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                            </ul>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flight__card"></div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                    tabindex="0">...</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ BOOKING SECTION END ================= -->
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
