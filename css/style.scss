@@ -226,7 +226,7 @@ a {
 
 // ================ hero banner css ==================
 .heroBnnr__section {
-    padding: 150px 0px 220px;
+    padding: 150px 0px 495px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,7 +264,7 @@ a {
 
 // =============== booking section css ================
 .booking__section {
-    padding: 60px 0px;
+    padding: 60px 0px 145px;
 
     .booking__tab {
         display: flex;
@@ -272,45 +272,286 @@ a {
         align-items: center;
 
         .b__tab {
-            width: 80%;
+            width: 88%;
+            position: relative;
+            margin-top: -205px;
+
+            .fly__search {
+                button {
+                    position: absolute;
+                    bottom: -45px;
+                    right: 20px;
+                    background: #74BE42;
+                    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+                    border-radius: 6px;
+                    padding: 15px 30px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    border: none;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 24px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background: #74be42e8;
+                    }
+                }
+            }
 
             .bk_tabBtn {
                 height: 40px;
                 border: none;
-                .bk__link1{
+
+                .bk__link1 {
                     border-top-left-radius: 10px;
                     border-top-right-radius: 0px;
                 }
-                .bk__link2{
+
+                .bk__link2 {
                     border-top-left-radius: 0px;
                     border-top-right-radius: 10px;
                 }
-                .nav-link{
+
+                .nav-link {
                     background: #09101D;
                     border: none;
                     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
                     display: flex;
                     align-items: center;
                     gap: 8px;
-                    font-size: 15px;
-                    height: 40px;
+                    font-size: 18px;
+                    height: 45px;
                     padding: 5px 21px;
                     color: white;
                 }
-                .active{
+
+                .active {
                     background: #F1F8EC;
                     color: #000000;
                 }
             }
 
             .bk_tabContent {
+                height: 270px;
                 border-bottom-left-radius: 20px;
                 border-bottom-right-radius: 20px;
                 border-top-right-radius: 20px;
                 background: #ffff;
                 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-                padding: 30px;
+                padding: 35px;
+
+                .flight__type {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 30px;
+
+                    .type {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                        p {
+                            font-weight: 600;
+                        }
+
+                        .flight__redio {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            .fl__radio {
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                                font-weight: 400;
+                                position: relative;
+                                padding-left: 30px;
+
+                                input[type="radio"] {
+                                    display: none;
+                                }
+
+                                span {
+                                    height: 20px;
+                                    width: 20px;
+                                    border-radius: 50%;
+                                    background: white;
+                                    border: solid 2px #74BE42;
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 2px;
+
+                                    &::after {
+                                        content: '';
+                                        height: 100%;
+                                        width: 100%;
+                                        display: block;
+                                        border-radius: 50%;
+                                        border: solid 3px #74BE42;
+                                        background: #ffffff;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .plane__class {
+                        .selector {
+                            background: #F1F8EC;
+                            border-radius: 4px;
+                            padding: 8px 15px;
+                            color: #74BE42;
+                            font-size: 14px;
+                            font-weight: 500;
+                            cursor: pointer;
+
+                            p {
+                                display: flex;
+                                align-items: center;
+                                gap: 5px;
+
+                                i {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .flight__card {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 25px;
+
+                    .fl__card {
+                        border-radius: 10px;
+                        padding: 20px 40px;
+                        border: solid 1px var(--bs-gray-200);
+                        box-shadow: 0 0 9px -8px black;
+                        width: 100%;
+
+                        h6 {
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #000000;
+                            margin-bottom: 12px;
+                        }
+
+                        .fly__up {
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+
+                            .up {
+                                img {
+                                    width: 22px;
+                                }
+                            }
+                        }
+
+                        .flyUp__content {
+                            h4 {
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 30px;
+                                color: #000000;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
+}
+
+.fl__radio input[type="radio"]:checked~span::after {
+    opacity: 1;
+}
+
+// ================ why choose css ================
+.whyChoose__section {
+    background: #F1F8EC;
+    padding: 110px 0px;
+
+    .whyChoose__title {
+        margin-bottom: 100px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 72px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+    }
+
+    .choose__box {
+        padding: 20px;
+
+        img {
+            height: 100px;
+        }
+
+        h4 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 36px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 24px;
+            text-align: center;
+            color: #000000;
+        }
+        .choose__vc{
+            position: absolute;
+            left: -11px;
+            top: 65%;
+            z-index: -1;
+            img{
+                height: auto;
+                width: 110px;
+            }
+        }
+    }
+
+    .choose__box2 {
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        box-shadow: -10px 20px 40px rgba(136, 136, 136, 0.4);
+        border-radius: 15px;
+        
+    }
+}
+.dotRight{
+    position: absolute;
+    top: 45%;
+    right: -85px;
+    z-index: -1;
+}
+.dotLeft{
+    position: absolute;
+    top: -150px;
+    left: -100px;
 }

@@ -122,7 +122,9 @@
           <div class="col-xl-12">
             <div class="booking__tab">
               <div class="b__tab">
-
+                <div class="fly__search">
+                  <button class="search__fly">Search Flights <i class="ri-search-line"></i></button>
+                </div>
                 <nav>
                   <div class="nav nav-tabs bk_tabBtn" id="nav-tab" role="tablist">
                     <button class="nav-link bk__link1 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
@@ -147,9 +149,19 @@
                     tabindex="0">
                     <div class="flight__type">
                       <div class="type">
-                        <p>Flight Type:</p>
+                        <p>Flight Type :</p>
                         <div class="flight__redio">
-                          <h6>qwqwq</h6>
+                          <label for="male" class="fl__radio">
+                            <input type="radio" name="way" id="male" value="OneWay">
+                            One way
+                            <span></span>
+                          </label>
+
+                          <label for="female" class="fl__radio">
+                            <input type="radio" name="trip" id="female" value="roundTrip">
+                            Round Trip
+                            <span></span>
+                          </label>
                         </div>
                       </div>
                       <div class="plane__class">
@@ -166,10 +178,141 @@
                         </div>
                       </div>
                     </div>
-                    <div class="flight__card"></div>
+                    <div class="flight__card">
+                      <div class="fl__card">
+                        <h6>Flying From</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/123.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Los Angeles</h4>
+                            <p>United States</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Flying To</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/546546.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Amsterdam</h4>
+                            <p>Netherlands</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Departure Date</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/789879.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Fri, 14 Jun</h4>
+                            <!-- <p>United States</p> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Passengers</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/56546.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>1</h4>
+                            <!-- <p>United States</p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
-                    tabindex="0">...</div>
+                    tabindex="0">
+                    <div class="flight__type">
+                      <div class="type">
+                        <p>Flight Type :</p>
+                        <div class="flight__redio">
+                          <label for="male" class="fl__radio">
+                            <input type="radio" name="way" id="male" value="OneWay">
+                            One way
+                            <span></span>
+                          </label>
+
+                          <label for="female" class="fl__radio">
+                            <input type="radio" name="trip" id="female" value="roundTrip">
+                            Round Trip
+                            <span></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="plane__class">
+                        <div class="selector">
+                          <p>Business Class <i class="ri-arrow-down-s-line"></i></p>
+                          <!-- <div class="option">
+                            <ul>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                              <li>sadsad</li>
+                            </ul>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flight__card">
+                      <div class="fl__card">
+                        <h6>Flying From</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/123.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Los Angeles</h4>
+                            <p>United States</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Flying To</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/546546.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Amsterdam</h4>
+                            <p>Netherlands</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Departure Date</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/789879.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>Fri, 14 Jun</h4>
+                            <!-- <p>United States</p> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fl__card">
+                        <h6>Passengers</h6>
+                        <div class="fly__up">
+                          <div class="up">
+                            <img src="img/56546.png" alt="">
+                          </div>
+                          <div class="flyUp__content">
+                            <h4>1</h4>
+                            <!-- <p>United States</p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
               </div>
@@ -179,6 +322,55 @@
       </div>
     </section>
     <!-- ================ BOOKING SECTION END ================= -->
+    <!-- ================== WHY CHOOSE SECTION START ===================== -->
+    <section class="whyChoose__section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="whyChoose__title text-center">
+              <h2>Why Choose Us</h2>
+            </div>
+          </div>
+          <div class="col-xl-4 position-relative" style="z-index: 1;">
+            <div class="choose__box text-center">
+              <div class="choose__img mb-4">
+                <img src="img/love 1.png" alt="">
+              </div>
+              <h4>You will Never Roam Alone</h4>
+              <p>Find best travel services and book them instantly</p>
+            </div>
+            <div class="dotLeft">
+              <img src="img/dot.png" alt="">
+            </div>
+          </div>
+          <div class="col-xl-4 position-relative" style="z-index: 1;">
+            <div class="choose__box choose__box2 text-center">
+              <div class="choose__img mb-4">
+                <img src="img/location 1.png" alt="">
+              </div>
+              <h4>Travel to anytime, anywhere</h4>
+              <p>No limits and boundaries for your next destination</p>
+              <div class="choose__vc">
+                <img src="img/Rectangle 512.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 position-relative" style="z-index: 1;">
+            <div class="choose__box text-center">
+              <div class="choose__img mb-4">
+                <img src="img/booking 1.png" alt="">
+              </div>
+              <h4>Ease of mind, search filter and book</h4>
+              <p>Let's help you find best travel deals and offers today</p>
+            </div>
+            <div class="dotRight">
+              <img src="img/dot.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================== WHY CHOOSE SECTION END ===================== -->
 
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
