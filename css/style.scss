@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:focus-visible {
+    outline: none;
+    border: none;
+}
+
 body,
 html {
     font-weight: 500;
@@ -770,17 +775,34 @@ a {
     .testimonialSlider {
         padding: 40px 0px;
 
+        .swiper-pagination {
+            bottom: -5px;
+
+            .swiper-pagination-bullet {
+                width: 15px;
+                height: 4px;
+                margin: 0px 4px;
+                border-radius: 20px;
+            }
+
+            .swiper-pagination-bullet-active {
+                transform: 0.3s;
+                background: #74BE42;
+                width: 40px;
+            }
+        }
+
         .testimonial__content {
             .under__box {
                 position: relative;
-                padding: 0px 33px;
+                padding: 0px 45px;
                 border-right: solid 1px #74BE42;
                 margin-bottom: 32px;
 
                 img {
                     position: absolute;
                     top: -25px;
-                    left: 0;
+                    left: 7px;
                 }
 
                 h6 {
@@ -797,6 +819,7 @@ a {
                     line-height: 21px;
                     letter-spacing: 0.05em;
                     color: #000000;
+                    height: 216px;
                 }
             }
 
@@ -804,6 +827,13 @@ a {
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                margin-bottom: 10px;
+                padding-left: 45px;
+
+                .star {
+                    display: flex;
+                    gap: 2px;
+                }
 
                 span {
                     font-weight: 600;
@@ -821,6 +851,215 @@ a {
                     }
                 }
             }
+
+            .reviwer {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                padding-left: 45px;
+
+                .reviwer__img {
+                    width: 8%;
+                    overflow: hidden;
+                    border-radius: 50%;
+
+                    img {
+                        height: 100%;
+                    }
+
+
+                }
+
+                .reviwer__name {
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #000000;
+                    }
+
+                    span {
+                        font-weight: 500;
+                        font-size: 12px;
+                        letter-spacing: 0.05em;
+                        color: #8A8A8A;
+                    }
+                }
+            }
         }
     }
+}
+
+// ============== service section css ===============
+.service__section {
+    padding: 145px 0px;
+    background: #FFFFFF;
+
+    .service__box {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .service__img {
+            padding: 10px;
+            background: #F2F7FF;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .service__content {
+            h6 {
+                font-weight: 700;
+                font-size: 24px;
+                color: #000000;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+// =========== footer css ============
+.footer__section {
+    background: #C7E5B3;
+    padding: 85px 0px;
+
+    .footerLogo__content {
+        p {
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: -0.02em;
+            color: #002533;
+            margin-bottom: 35px;
+            padding-right: 40px;
+        }
+
+        .footer__logo {
+            margin-bottom: 15px;
+        }
+
+        .footer__social {
+            display: flex;
+            gap: 20px;
+
+            i {
+                font-size: 35px;
+                background: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                color: black;
+                transition: 0.3s;
+
+                &:hover {
+                    background: #74BE42;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .footer__list {
+        h6 {
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 24px;
+            color: #181433;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            li {
+                padding-bottom: 18px;
+
+                a {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #181433;
+                    transition: 0.3s;
+
+                    &:hover {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__newsletter {
+        h6 {
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 24px;
+            color: #181433;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.02em;
+            color: #181433;
+            opacity: 0.5;
+
+        }
+
+        .ft__subcribe {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            input[type="email"] {
+                padding: 15px 17px;
+                border: none;
+                background: white;
+                flex-grow: 1;
+            }
+
+            input::placeholder {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: -0.02em;
+                color: #181433;
+                opacity: 0.2;
+            }
+
+            input[type="submit"] {
+                padding: 13px 35px;
+                border: none;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: -0.02em;
+                color: #FFFFFF;
+                background: #74BE42;
+            }
+        }
+
+    }
+
+    .footer__bottom__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        border-top: solid 2px white;
+
+        .money {
+            display: flex;
+            gap: 30px;
+        }
+    }
+
 }

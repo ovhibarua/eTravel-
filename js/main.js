@@ -34,6 +34,7 @@ var swiper = new Swiper(".destination2", {
 var swiper = new Swiper(".testimonialSlider", {
     slidesPerView: 3,
     spaceBetween: 5,
+    loop:true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
