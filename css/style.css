@@ -624,4 +624,284 @@ a {
   top: -150px;
   left: -100px;
 }
+
+.destination__section {
+  padding: 110px 0px 90px;
+}
+
+.destination__section .bg__img {
+  position: absolute;
+  right: 24px;
+  bottom: 68%;
+  width: 38%;
+  z-index: -1;
+}
+
+.destination__section .destination__title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.destination__section .destination {
+  padding: 70px 9px 15px;
+}
+
+.destination__section .destination .swiper-button-next {
+  width: 50px;
+  height: 50px;
+  top: 32px;
+}
+
+.destination__section .destination .swiper-button-next::after {
+  display: none;
+}
+
+.destination__section .destination .swiper-button-next i {
+  font-size: 25px;
+  border: 2px solid #101828;
+  color: #101828;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.destination__section .destination .swiper-button-next i:hover {
+  border: 2px solid #74BE42;
+  color: #74BE42;
+}
+
+.destination__section .destination .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  left: 90%;
+  top: 32px;
+}
+
+.destination__section .destination .swiper-button-prev::after {
+  display: none;
+}
+
+.destination__section .destination .swiper-button-prev i {
+  font-size: 25px;
+  border: 2px solid #101828;
+  color: #101828;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.destination__section .destination .swiper-button-prev i:hover {
+  border: 2px solid #74BE42;
+  color: #74BE42;
+}
+
+.destination__section .destination .slider__box {
+  overflow: hidden;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.destination__section .destination .slider__box .slider__img {
+  width: 100%;
+  height: 257px;
+}
+
+.destination__section .destination .slider__box .slider__img img {
+  height: 100%;
+}
+
+.destination__section .destination .slider__box .slider__content {
+  padding: 25px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__button p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__button span {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__button span i {
+  color: #FA4D56;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__button button {
+  background: #74BE42;
+  border-radius: 5px;
+  padding: 9px 35px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  width: 180px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__button button:hover {
+  background: #74be42e8;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__text h6 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.destination__section .destination .slider__box .slider__content .slider__text p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.destination__section .destination .slider__box .slider__price {
+  padding: 0px 20px 25px;
+}
+
+.destination__section .destination .slider__box .slider__price .price p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #74BE42;
+}
+
+.destination__section .destination .slider__box .slider__price .price p > span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+}
+
+.destination__section .destination .slider__box .slider__price .price span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+
+.testimonial__section {
+  padding: 150px 0px;
+  background: #F1F8EC;
+}
+
+.testimonial__section .testimonial__title p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.testimonial__section .testimonial__title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.testimonial__section .testimonialSlider {
+  padding: 40px 0px;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .under__box {
+  position: relative;
+  padding: 0px 33px;
+  border-right: solid 1px #74BE42;
+  margin-bottom: 32px;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .under__box img {
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .under__box h6 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .under__box p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .testi__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .testi__rating span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.testimonial__section .testimonialSlider .testimonial__content .testi__rating .star i {
+  color: #FA4D56;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
