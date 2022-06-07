@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+.fq__section .destination__title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.fq__section {
+  padding: 80px 0px 30px;
+}
+
+.fq__section p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.fq__section h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.fq__section ul li {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
 * {
   padding: 0;
   margin: 0;
