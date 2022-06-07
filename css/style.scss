@@ -321,7 +321,7 @@ a {
                 }
 
                 .nav-link {
-                    background: #09101D;
+                    background: #858C94;
                     border: none;
                     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
                     display: flex;
@@ -485,7 +485,7 @@ a {
     }
 }
 
-.fl__radio input[type="radio"]:checked~span::after {
+.fl__radio input[type="radio"]:checked ~ span::after {
     opacity: 1;
 }
 
@@ -1063,4 +1063,11 @@ a {
         }
     }
 
+}
+// =========== flightBnnr section css ============
+.flightBnnr___section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0px;
 }

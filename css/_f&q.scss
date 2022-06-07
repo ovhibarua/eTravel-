@@ -1,4 +1,4 @@
-// =============== f and q css =================
+// ============== terms and condition css ==============
 .fq__section .destination__title h2 {
     font-weight: 700;
     font-size: 48px;
@@ -24,8 +24,9 @@
         color: #000000;
         margin-bottom: 15px;
     }
-    ul{
-        li{
+
+    ul {
+        li {
             font-weight: 400;
             font-size: 19px;
             line-height: 30px;
@@ -34,5 +35,44 @@
         }
     }
 }
-// ============== terms and condition css ==============
 
+// =============== f and q css =================
+.termAnsCon {
+    .accordion-button {
+        background: #F1F8EC;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #74BE42;
+        box-shadow: none;
+        justify-content: space-between;
+        align-items: center;
+        i{
+                font-size: 25px;
+        }
+        &::after{
+            display: none;
+        }
+    }
+
+    .accordion-item {
+        margin-bottom: 15px;
+        border: 1px solid #CFCFCF;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .accordion-body {
+        background: #F1F8EC;
+        font-weight: 500;
+        padding: 5px 20px 20px;
+
+        p {
+            font-size: 16px;
+            line-height: 31px;
+            letter-spacing: -0.02em;
+            color: #09101D;
+        }
+    }
+
+}
