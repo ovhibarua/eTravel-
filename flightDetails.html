@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eTravel+</title>
+    <!-- bootstra css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- remix icon css -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- fontawsm -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="header_topLeft_contact">
+                        <div class="header__phone">
+                            <i class="ri-phone-line"></i>
+                            <p>+9 02129825417</p>
+                        </div>
+                        <div class="header__phone">
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="#">contact@etravelplus.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="header_topRight_dropdown">
+                        <div class="header__country">
+                            <div class="country">
+                                <img src="img/US.png" alt="">
+                                <span>english</span>
+                            </div>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="header__price">
+                            <div class="country">
+                                <span>eur</span>
+                            </div>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="header__login">
+                            <button class="login__btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- =================== HEADER NAVIGATION START ==================== -->
+        <section class="headerNavigation__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <nav class="navbar navbar-expand-lg py-3">
+                            <div class="container-fluid">
+                                <a class="navbar-brand header__logo" href="index.html">
+                                    <img src="img/logo 1.png" alt="logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navi">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="flight.html">Flight</a></li>
+                                        <li><a href="hotel.html">Hotels</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li class="menu">
+                                            <a href="#">Company<i class="ri-arrow-down-s-line"></i></a>
+                                            <div class="sub__menu">
+                                                <ul>
+                                                    <li><a href="#">Qatar</a></li>
+                                                    <li><a href="#">Canada</a></li>
+                                                    <li><a href="#">Bangladesh</a></li>
+                                                    <li><a href="#">India</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== HEADER NAVIGATION END ==================== -->
+        <!-- ================== FLIGHT DETAILS SECTION START =================== -->
+        <section class="flightDetails__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="fl__personalInfo">
+                            <h6>Your Personal Information</h6>
+                            <div class="info">
+                                <div class="info__input">
+                                    <label for="email">Email address</label>
+                                    <div class="email">
+                                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                                        <i class="ri-mail-line"></i>
+                                    </div>
+                                </div>
+                                <div class="info__input">
+                                    <label for="phone">Phone Number</label>
+                                    <div class="phone">
+                                        <input type="phone" name="phone" id="phone" placeholder="+010101010101010">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="fl__personalInfo">
+                            <div class="fl__checkout">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link active fl__link" id="nav-home-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                            aria-selected="true"><i class="ri-plane-line"></i> Flight Details</button>
+                                        <button class="nav-link fl__link2" id="nav-profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-profile" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false"><i class="ri-shopping-cart-2-line"></i> Checkout</button>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                        aria-labelledby="nav-home-tab" tabindex="0">
+                                        <div class="flCheck__box">
+                                            <div class="flDuration">
+                                                <div class="time">
+                                                    <h6>10:35AM</h6>
+                                                    <span>LOS</span>
+                                                </div>
+                                                <div class="duration">
+                                                    <p>
+                                                        <i class="ri-plane-line"></i>
+                                                    </p>
+                                                    <span>08h 00m</span>
+                                                </div>
+                                                <div class="time">
+                                                    <h6>06:35AM</h6>
+                                                    <span>AMS</span>
+                                                </div>
+                                            </div>
+                                            <div class="flDeparture">
+                                                <div class="planeName">
+                                                    <div class="brandName">
+                                                        <div class="brandPl">
+                                                            <img src="img/Turkish Airlines svg.png" alt="">
+                                                        </div>
+                                                        <p>Turkish Airlines</p>
+                                                    </div>
+                                                    <div class="planeDetails">
+                                                        <p><i class="ri-plane-line"></i> UA-9015</p>
+                                                        <p><i class="ri-briefcase-2-fill"></i> 20KG</p>
+                                                    </div>
+                                                </div>
+                                                <div class="departureTime">
+                                                    <p><span>Departure Date:</span> 14 Jun 2021</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                        aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================== FLIGHT DETAILS SECTION END =================== -->
+    </main>
+    <!-- ==================== FOOTER SECTION START ==================== -->
+    <footer class="footer__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 mb-4">
+                    <div class="footerLogo__content">
+                        <div class="footer__logo">
+                            <img src="img/logo 1.png" alt="">
+                        </div>
+                        <p>Explore Hundreds of Travel Destinations around the world</p>
+                        <div class="footer__social">
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="#"><i class="ri-messenger-fill"></i></a>
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 offset-xl-1 mb-4">
+                    <div class="footer__list">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="#">Flight</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 mb-4">
+                    <div class="footer__list">
+                        <h6>Terms of Use</h6>
+                        <ul>
+                            <li><a href="#">Cookies Policy</a></li>
+                            <li><a href="termAndCon.html">Privacy Policy</a></li>
+                            <li><a href="#">How to Book</a></li>
+                            <li><a href="f&q.html">F.A.Q</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-4">
+                    <div class="footer__newsletter">
+                        <h6>Join Our Newsletter</h6>
+                        <form class="ft__subcribe">
+                            <input type="email" name="email" id="email" placeholder="Your email address" required>
+                            <input type="submit" value="Subscribe">
+                        </form>
+                        <p>* Will send you weekly updates for your better
+                            finance management.</p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="footer__bottom__text">
+                        <p>Copyright @ eTravelPlus 2022. All Rights Reserved.</p>
+                        <div class="money">
+                            <img src="img/Payment Icons (1).png" alt="" srcset="">
+                            <img src="img/Payment Icons (2).png" alt="" srcset="">
+                            <img src="img/Payment Icons.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==================== FOOTER SECTION END ==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

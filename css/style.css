@@ -1313,4 +1313,291 @@ a {
   color: #000000;
   width: 81%;
 }
+
+.flightDetails__section {
+  padding: 60px 0px;
+}
+
+.flightDetails__section .fl__personalInfo {
+  background: #FFFFFF;
+  border: 1px solid #A5ABB3;
+  padding: 33px 45px;
+}
+
+.flightDetails__section .fl__personalInfo h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.flightDetails__section .fl__personalInfo .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-bottom: 15px;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input input {
+  padding: 13px 40px 13px;
+  border-bottom: solid 1px #74BE42;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input .email,
+.flightDetails__section .fl__personalInfo .info .info__input .phone {
+  position: relative;
+}
+
+.flightDetails__section .fl__personalInfo .info .info__input .email i,
+.flightDetails__section .fl__personalInfo .info .info__input .phone i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 6px;
+  font-size: 22px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav {
+  border: none;
+  margin-bottom: 46px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav .nav-link {
+  border: 1px solid #DADEE3;
+  border-radius: 8px;
+  padding: 8px 30px;
+  background: #F1F8EC;
+  color: #667085;
+  font-weight: 700;
+  line-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav .nav-link i {
+  font-size: 18px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav .active {
+  background: #74BE42;
+  color: white;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav .fl__link {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .nav .fl__link2 {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-left: none;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .time {
+  text-align: center;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .time h6 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .time span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #000000;
+  background: #F1F8EC;
+  border: 1px solid #74BE42;
+  border-radius: 40px;
+  padding: 2px 14px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .duration {
+  text-align: center;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .duration span {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #74BE42;
+  background: #F1F8EC;
+  border: 1px solid #74BE42;
+  border-radius: 40px;
+  padding: 2px 14px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .duration p {
+  width: 220px;
+  border-bottom: dashed 2px #101828;
+  margin-top: 20px;
+  position: relative;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration .duration p i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+  color: #74BE42;
+  font-size: 20px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture .planeName .brandName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture .planeName .brandName P {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture .planeName .planeDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture .planeName .planeDetails p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #858C94;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture .planeName .planeDetails p i {
+  font-size: 18px;
+  color: #74BE42;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .departureTime p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .departureTime p span {
+  margin-right: 15px;
+}
 /*# sourceMappingURL=style.css.map */
