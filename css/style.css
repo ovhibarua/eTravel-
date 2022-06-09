@@ -819,6 +819,7 @@ a {
 
 .destination__section .destination .slider__box .slider__img img {
   height: 100%;
+  width: 100%;
 }
 
 .destination__section .destination .slider__box .slider__content {
@@ -1272,5 +1273,44 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 400px 0px;
+}
+
+.loading__section {
+  padding: 190px 0px;
+}
+
+.loading__section .loading__bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 120px;
+  height: 456px;
+  position: relative;
+}
+
+.loading__section .loading__bg .baggage {
+  position: absolute;
+  top: 47%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 84.5%;
+}
+
+.loading__section .loading__bg .loading__title {
+  position: relative;
+}
+
+.loading__section .loading__bg .loading__title img {
+  position: absolute;
+  top: -45px;
+  right: 98%;
+}
+
+.loading__section .loading__bg .loading__title h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  width: 81%;
 }
 /*# sourceMappingURL=style.css.map */

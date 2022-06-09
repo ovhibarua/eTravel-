@@ -485,7 +485,7 @@ a {
     }
 }
 
-.fl__radio input[type="radio"]:checked ~ span::after {
+.fl__radio input[type="radio"]:checked~span::after {
     opacity: 1;
 }
 
@@ -660,6 +660,7 @@ a {
 
                 img {
                     height: 100%;
+                    width: 100%;
                 }
             }
 
@@ -1064,10 +1065,49 @@ a {
     }
 
 }
+
 // =========== flightBnnr section css ============
-.flightBnnr___section{
+.flightBnnr___section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 400px 0px;
+}
+
+// =============== loading page css =================
+.loading__section {
+    padding: 190px 0px;
+
+    .loading__bg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 120px;
+        height: 456px;
+        position: relative;
+        .baggage{
+            position: absolute;
+            top: 47%;
+            transform: translateY(-50%);
+            left: 84.5%;
+        
+        }
+    
+
+        .loading__title {
+            position: relative;
+            img{
+                position: absolute;
+                top: -45px;
+                right: 98%;
+            }
+            h2 {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 54px;
+                color: #000000;
+                width: 81%;
+            }
+        }
+    }
 }
