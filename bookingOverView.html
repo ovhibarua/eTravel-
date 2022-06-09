@@ -100,144 +100,61 @@
             </div>
         </section>
         <!-- =================== HEADER NAVIGATION END ==================== -->
-        <!-- ================== FLIGHT DETAILS SECTION START =================== -->
-        <section class="flightDetails__section">
+        <!-- ================== FLIGHT BOOKING SECTION START ==================== -->
+        <section class="flightBooking__overview">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
-                        <div class="fl__personalInfo mb-4">
-                            <h6>Your Personal Information</h6>
-                            <div class="info">
-                                <div class="info__input">
-                                    <label for="email">Email address</label>
-                                    <div class="email">
-                                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
-                                        <i class="ri-mail-line"></i>
-                                    </div>
-                                </div>
-                                <div class="info__input">
-                                    <label for="phone">Phone Number</label>
-                                    <div class="phone">
-                                        <input type="phone" name="phone" id="phone" placeholder="+010101010101010">
-                                        <i class="ri-phone-line"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fl__personalInfo fl__travelInfo">
-                            <h6>Traveler’s Information <i class="ri-add-box-line"></i></h6>
-                            <div class="info mb-4">
-                                <div class="info__input">
-                                    <label for="email">Title</label>
-                                    <div class="email">
-                                        <h5>Mr. <i class="ri-arrow-down-s-line"></i></h5>
-                                    </div>
-                                </div>
-                                <div class="info__input">
-                                    <label for="fName">First Name</label>
-                                    <div class="fName">
-                                        <input type="text" name="fName" id="fName" placeholder="ex. Lois">
-                                    </div>
-                                </div>
-                                <div class="info__input">
-                                    <label for="lname">Last Name</label>
-                                    <div class="lname">
-                                        <input type="text" name="lname" id="lname" placeholder="Last Name">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="info__input">
-                                    <label for="email">Date of Birth</label>
-                                    <div class="email">
-                                        <h5>DD <i class="ri-arrow-down-s-line"></i></h5>
-                                    </div>
-                                </div>
-                                <div class="info__input">
-                                    <div class="fName email">
-                                        <h5>MM <i class="ri-arrow-down-s-line"></i></h5>
-                                    </div>
-                                </div>
-                                <div class="info__input">
-                                    <div class="lname email">
-                                        <h5>YYYY <i class="ri-arrow-down-s-line"></i></h5>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-xl-12">
+                        <div class="flightOverview__title">
+                            <h4>Flight Booking Overview</h4>
+                            <p>Reservation Number: <span>5306 - 120</span></p>
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="fl__personalInfo">
-                            <div class="fl__checkout">
-                                <nav>
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link active fl__link" id="nav-home-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                            aria-selected="true"><i class="ri-plane-line"></i> Flight Details</button>
-                                        <button class="nav-link fl__link2" id="nav-profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-profile" type="button" role="tab"
-                                            aria-controls="nav-profile" aria-selected="false"><i
-                                                class="ri-shopping-cart-2-line"></i> Checkout</button>
-                                    </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                        aria-labelledby="nav-home-tab" tabindex="0">
-                                        <div class="flCheck__box">
-                                            <div class="flDuration">
-                                                <div class="time">
-                                                    <h6>10:35AM</h6>
-                                                    <span>LOS</span>
-                                                </div>
-                                                <div class="duration">
-                                                    <p>
-                                                        <i class="ri-plane-line"></i>
-                                                    </p>
-                                                    <span>08h 00m</span>
-                                                </div>
-                                                <div class="time">
-                                                    <h6>06:35AM</h6>
-                                                    <span>AMS</span>
-                                                </div>
-                                            </div>
-                                            <div class="flDeparture">
-                                                <div class="planeName">
-                                                    <div class="brandName">
-                                                        <div class="brandPl">
-                                                            <img src="img/Turkish Airlines svg.png" alt="">
-                                                        </div>
-                                                        <p>Turkish Airlines</p>
-                                                    </div>
-                                                    <div class="planeDetails">
-                                                        <p><i class="ri-plane-line"></i> UA-9015</p>
-                                                        <p><i class="ri-briefcase-2-fill"></i> 20KG</p>
-                                                    </div>
-                                                </div>
-                                                <div class="departureTime">
-                                                    <p><span>Departure Date:</span> 14 Jun 2021</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                        aria-labelledby="nav-profile-tab" tabindex="0">
-                                        <div class="passenger">
-                                            <h6>Passengers</h6>
-                                            <ul>
-                                                <li><span>Adult * 01</span><span>$127.53</span></li>
-                                                <li><span>Tax</span><span>$27.53</span></li>
-                                                <li><span>Total Payable</span><span>$155.06</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="flightOverview__details mb-5">
+                            <h6>Client Details</h6>
+                            <ul>
+                                <li><p>First Name: <span>Space</span></p></li>
+                                <li><p>Last Name: <span>Teq</span></p></li>
+                                <li><p>Email: <span>spaceteq@mail.com</span></p></li>
+                                <li><p>Phone number: <span>+49 (012) 026373</span></p></li>
+                            </ul>
+                        </div>
+                        <div class="flightOverview__details mb-5">
+                            <h6>Flight Details</h6>
+                            <ul>
+                                <li><p>Travel From: <span>Los Angeles</span></p></li>
+                                <li><p>Travel Destination: <span>Amsterdam</span></p></li>
+                                <li><p>Flight Type: <span>One Way</span></p></li>
+                                <li><p>Airline: <span>Turkish Airline</span></p></li>
+                                <li><p>Baggage Weight: <span>20KG</span></p></li>
+                            </ul>
+                        </div>
+                        <div class="flightOverview__details mb-3">
+                            <h6>Booking Details</h6>
+                            <ul>
+                                <li><p>Adults: <span>01</span></p></li>
+                                <li><p>Childs: <span>00</span></p></li>
+                                <li><p>Infants: <span>00</span></p></li>
+                                <li><p>Fee: <span>127.55</span></p></li>
+                                <li><p>Tax: <span>27.55</span></p></li>
+                                <li><p>Total Payable: <span>155.56</span></p></li>
+                            </ul>
+                        </div>
+                        <div class="flight__invoice">
+                            <button class="cancel">Request Cancellation</button>
+                            <button class="invoice">Download Invoice <i class="ri-download-2-line"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="proceed">
+                            <button class="payment__btn">Proceed for Payment <i class="ri-shopping-bag-3-line"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ================== FLIGHT DETAILS SECTION END =================== -->
+        <!-- ================== FLIGHT BOOKING SECTION END ==================== -->
     </main>
     <!-- ==================== FOOTER SECTION START ==================== -->
     <footer class="footer__section">

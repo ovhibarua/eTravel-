@@ -1356,7 +1356,7 @@ a {
 
 .flightDetails__section .fl__personalInfo .info .info__input input {
   padding: 13px 40px 13px;
-  border-bottom: solid 1px #74BE42;
+  border-bottom: solid 1px #C7E5B3;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -1599,5 +1599,267 @@ a {
 
 .flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .departureTime p span {
   margin-right: 15px;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .passenger ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #09101D;
+  padding: 10px 0px;
+  border-bottom: 1px solid #EBEEF2;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .passenger ul li:nth-child(3) {
+  border-bottom: none;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .passenger ul li span:nth-child(2) {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.flightDetails__section .fl__personalInfo .fl__checkout .passenger h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.flightDetails__section .fl__travelInfo h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flightDetails__section .fl__travelInfo h6 i {
+  font-size: 27px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.flightDetails__section .fl__travelInfo .info {
+  gap: 35px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flightDetails__section .fl__travelInfo .info .info__input input {
+  padding-left: 0;
+  padding-bottom: 13px;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.flightDetails__section .fl__travelInfo .info .info__input .email {
+  cursor: pointer;
+}
+
+.flightDetails__section .fl__travelInfo .info .info__input .email h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 13px;
+  border-bottom: solid 1px #C7E5B3;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flightDetails__section .fl__travelInfo .info .info__input .email h5 i {
+  position: inherit;
+  -webkit-transform: none;
+          transform: none;
+  font-size: 30px;
+  color: #101828;
+}
+
+.flightBooking__overview {
+  padding: 80px 0px;
+}
+
+.flightBooking__overview .flightOverview__title {
+  padding-bottom: 20px;
+  border-bottom: dashed 2px #457227;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.flightBooking__overview .flightOverview__title h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.flightBooking__overview .flightOverview__title p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.flightBooking__overview .flightOverview__title p span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #74BE42;
+}
+
+.flightBooking__overview .flightOverview__details h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #74BE42;
+  margin-bottom: 25px;
+}
+
+.flightBooking__overview .flightOverview__details ul li {
+  padding-bottom: 12px;
+}
+
+.flightBooking__overview .flightOverview__details ul li p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.flightBooking__overview .flightOverview__details ul li p span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-left: 8px;
+}
+
+.flightBooking__overview .flight__invoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.flightBooking__overview .flight__invoice button {
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 37px;
+  letter-spacing: 0.2px;
+  padding: 14px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.flightBooking__overview .flight__invoice .cancel {
+  border: 1px solid #DA1414;
+  color: #DA1414;
+  background: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.flightBooking__overview .flight__invoice .cancel:hover {
+  background: #DA1414;
+  color: white;
+}
+
+.flightBooking__overview .flight__invoice .invoice {
+  color: white;
+  background: #287D3C;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.flightBooking__overview .flight__invoice .invoice:hover {
+  background: #287d3cd6;
+}
+
+.flightBooking__overview .proceed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flightBooking__overview .proceed button {
+  background: #74BE42;
+  -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.flightBooking__overview .proceed button:hover {
+  background: #74be42e0;
 }
 /*# sourceMappingURL=style.css.map */
