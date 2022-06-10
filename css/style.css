@@ -1862,4 +1862,457 @@ a {
 .flightBooking__overview .proceed button:hover {
   background: #74be42e0;
 }
+
+.cardDetails__section {
+  padding: 150px 0px;
+}
+
+.cardDetails__section .bookingCard__box {
+  border: 1px solid #D0D5DD;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardDetails__section .bookingCard__box .card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  margin-bottom: 55px;
+}
+
+.cardDetails__section .bookingCard__box .card__title h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cardDetails__section .bookingCard__box .card__title .setmpos .setInput {
+  border: 1px solid #74BE42;
+  padding: 10px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.cardDetails__section .bookingCard__box .card__title .setmpos .setInput p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.cardDetails__section .bookingCard__box .card__title .setmpos .setInput i {
+  font-size: 30px;
+  color: #74BE42;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard {
+  padding: 55px;
+  background: #FFFFFF;
+  border: 1px solid #A5ABB3;
+  width: 717px;
+  margin-bottom: 45px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input {
+  margin-bottom: 32px;
+  gap: 10px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input input {
+  border-bottom: solid 1px #C7E5B3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 13px;
+  width: 70%;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input .cvv label {
+  margin-bottom: 21px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input .card__expiry .expiry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input .card__expiry .expiry h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #C7E5B3;
+  cursor: pointer;
+}
+
+.cardDetails__section .bookingCard__box .bookigCard .card__input .card__expiry .expiry h5 i {
+  font-size: 20px;
+  color: black;
+}
+
+.cardDetails__section .bookingCard__box .bookigCardProceed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardDetails__section .bookingCard__box .bookigCardProceed .proceed__option a {
+  background: #74BE42;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding: 11px 50px;
+  margin-bottom: 45px;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cardDetails__section .bookingCard__box .bookigCardProceed .proceed__option a:hover {
+  background: #74be42e3;
+}
+
+.cardDetails__section .bookingCard__box .bookigCardProceed .payCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cardDetails__section .bookingCard__box .bookigCardProceed p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.pos__img {
+  margin-bottom: 40px;
+}
+
+.pos__pay {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.pos__pay p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.pos__pay span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.pos__pay a {
+  background: #2361D5;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding: 11px 45px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pos__pay a:hover {
+  background: #2361d5db;
+}
+
+.pos__backInvoice a {
+  background: #F04438;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 20px 80px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pos__backInvoice a:hover {
+  background: #f04438e0;
+}
+
+.setmposConfirm__box {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.setmposConfirm__box p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.setmposConfirm__box p span {
+  border: solid 3px black;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.setmposConfirm__box .setmposConfirm__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.setmposConfirm__box .setmposConfirm__img img {
+  width: 38%;
+}
+
+.setmposConfirm__box .setmposConfirm__img img:nth-child(2) {
+  width: 11%;
+}
+
+.setmposConfirm__box .setmposConfirm__list {
+  margin-bottom: 40px;
+}
+
+.setmposConfirm__box .setmposConfirm__list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
+}
+
+.setmposConfirm__box .setmposConfirm__list ul li span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.setmposConfirm__box .setmposConfirm__list ul li span:nth-child(2) {
+  font-weight: 700;
+}
+
+.setmposConfirm__box .setmpos__footer {
+  background: #F1F8EC;
+  padding: 45px;
+  text-align: center;
+}
+
+.setmposConfirm__box .setmpos__footer .sms__password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.setmposConfirm__box .setmpos__footer .sms__password p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.setmposConfirm__box .setmpos__footer .sms__password input {
+  padding: 10px 15px;
+  border: solid 2px #74BE42;
+  background: none;
+}
+
+.setmposConfirm__box .setmpos__footer .setmposConfirm__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.setmposConfirm__box .setmpos__footer .setmposConfirm__btn button {
+  background: #2E90FA;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding: 6px 25px;
+  border: none;
+  border: solid 2px #2E90FA;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.setmposConfirm__box .setmpos__footer .setmposConfirm__btn button:hover {
+  background: #2e90fae0;
+}
+
+.setmposConfirm__box .setmpos__footer .setmposConfirm__btn button:nth-child(1) {
+  background: none;
+  border: solid 2px #2E90FA;
+  color: #2E90FA;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.setmposConfirm__box .setmpos__footer .setmposConfirm__btn button:nth-child(1):hover {
+  background: #2E90FA;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
