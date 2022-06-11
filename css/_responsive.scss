@@ -1,0 +1,37 @@
+@media all and (max-width: 1200px){
+
+}
+@media all and (max-width: 992px){
+    .header__section .header_topLeft_contact {
+        align-items: flex-start;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .header__section .header_topRight_dropdown {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .header__section .header_topRight_dropdown .header__country {
+        flex-basis: 35%;
+    }
+    .header__section .header_topRight_dropdown .header__price {
+        flex-basis: 15%;
+    }
+    .header__section .header_topRight_dropdown .header__login .login__btn {
+        width: 100%;
+    }
+    .header__section .header_topRight_dropdown .header__login {
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px){
+    .header__section .header_topLeft_contact {
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width: 567px){}
+@media all and (max-width: 450px){}
+@media all and (max-width: 350px){}
