@@ -379,7 +379,7 @@ a {
                                 padding-left: 30px;
 
                                 input[type="radio"] {
-                                    display: none;
+                                    opacity: 0;
                                 }
 
                                 span {
@@ -487,7 +487,7 @@ a {
     }
 }
 
-.fl__radio input[type="radio"]:checked~span::after {
+.flight__redio input[type="radio"]:checked ~ span::after {
     opacity: 1;
 }
 
@@ -1073,7 +1073,10 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px 0px;
+    padding: 200px 0px;
+    .flightTab__header{
+        margin-top: 0 !important;
+    }
 }
 
 // =============== loading page css =================
