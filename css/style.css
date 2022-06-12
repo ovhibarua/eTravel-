@@ -388,7 +388,7 @@ a {
 }
 
 .booking__section .booking__tab .b__tab {
-  width: 88%;
+  width: 100%;
   position: relative;
   margin-top: -205px;
 }
@@ -460,7 +460,6 @@ a {
 }
 
 .booking__section .booking__tab .b__tab .bk_tabContent {
-  height: 270px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -521,7 +520,7 @@ a {
 }
 
 .booking__section .booking__tab .b__tab .bk_tabContent .flight__type .type .flight__redio .fl__radio input[type="radio"] {
-  opacity: 0;
+  display: none;
 }
 
 .booking__section .booking__tab .b__tab .bk_tabContent .flight__type .type .flight__redio .fl__radio span {
@@ -2320,7 +2319,25 @@ a {
   color: white;
 }
 
+.noflight__section .booking__tab .b__tab {
+  margin-top: 0;
+}
+
+.sorry__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media all and (max-width: 1400px) {
+  .flightDetails__section .fl__personalInfo .info {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .destination__section .destination .slider__box .slider__content .slider__text h6 {
     margin-bottom: 10px;
   }
@@ -2371,6 +2388,36 @@ a {
 }
 
 @media all and (max-width: 992px) {
+  .flightBooking__overview .flightOverview__title p span {
+    font-size: 25px;
+  }
+  .flightBooking__overview .proceed button {
+    font-size: 17px;
+  }
+  .flightBooking__overview .flight__invoice button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    font-size: 17px;
+  }
+  .flightBooking__overview .proceed {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .flightBooking__overview .flightOverview__title p {
+    font-size: 25px;
+  }
+  .flightBooking__overview .flightOverview__title h4 {
+    font-size: 25px;
+  }
+  .flightBooking__overview .flightOverview__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .fq__section p {
     font-size: 16px;
   }
@@ -2517,12 +2564,30 @@ a {
 }
 
 @media all and (max-width: 567px) {
+  .flightBooking__overview .flight__invoice button {
+    line-height: 30px;
+  }
   .flightBnnr___section {
     padding: 140px 0px;
   }
 }
 
 @media all and (max-width: 450px) {
+  .flightBooking__overview .proceed button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .flightBooking__overview .flight__invoice button {
+    width: 100%;
+  }
+  .flightBooking__overview .flight__invoice {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .footer__section .footer__newsletter .ft__subcribe input[type="email"] {
     width: 100%;
   }

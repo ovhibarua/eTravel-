@@ -1,180 +1,269 @@
-@media all and (max-width: 1400px){
+@media all and (max-width: 1400px) {
+    .flightDetails__section .fl__personalInfo .info {
+        justify-content: flex-start;
+    }
+
     .destination__section .destination .slider__box .slider__content .slider__text h6 {
         margin-bottom: 10px;
     }
+
     .destination__section .destination .slider__box .slider__content .slider__button button {
         padding: 9px 15px;
         font-size: 15px;
         width: 125px;
     }
+
     .flightBnnr___section {
         padding: 170px 0px;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent {
         height: inherit;
     }
+
     .service__section .service__box .service__content h6 {
         font-size: 20px;
         margin-bottom: 15px;
     }
+
     .service__section .service__box .service__content p {
         font-size: 12px;
     }
+
     .service__section .service__box .service__img {
         width: 20%;
     }
 }
-@media all and (max-width: 1200px){
+
+@media all and (max-width: 1200px) {
     .service__section {
         padding: 120px 0px;
     }
+
     .booking__section .booking__tab .b__tab .fly__search button {
         font-size: 20px;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
         width: 48%;
     }
+
     .flightBnnr___section {
         padding: 150px 0px;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__card {
         flex-wrap: wrap;
     }
+
     .service__section .service__box .service__content h6 {
         font-size: 16px;
         margin-bottom: 10px;
     }
 }
-@media all and (max-width: 992px){
+
+@media all and (max-width: 992px) {
+    .flightBooking__overview .flightOverview__title p span {
+    font-size: 25px;
+}
+    .flightBooking__overview .proceed button {
+    font-size: 17px;
+}
+    .flightBooking__overview .flight__invoice button {
+    justify-content: center;
+    width: 50%;
+    font-size: 17px;
+}
+    .flightBooking__overview .proceed {
+    justify-content: center;
+}
+    .flightBooking__overview .flightOverview__title p {
+        font-size: 25px;
+    }
+
+    .flightBooking__overview .flightOverview__title h4 {
+        font-size: 25px;
+    }
+
+    .flightBooking__overview .flightOverview__title {
+        flex-direction: column;
+    }
+
     .fq__section p {
         font-size: 16px;
     }
+
     .termAnsCon .accordion-body p {
         font-size: 15px;
     }
+
     .termAnsCon .accordion-button {
         font-size: 16px;
     }
+
     .service__section {
         padding: 90px 0px;
     }
+
     .fq__section .destination__title h2 {
         font-size: 38px;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
         width: 100%;
     }
+
     .service__section .service__box .service__img {
         width: 20%;
     }
+
     .service__section .service__box .service__img {
         width: inherit;
     }
+
     .service__section .service__box .service__content h6 {
         font-size: 20px;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         background: #F1F8EC;
         border: 1px solid #F1F8EC;
-        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); 
-        &:focus{
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+
+        &:focus {
             box-shadow: none;
-        }   
+        }
     }
-    .navbar-toggler-icon span{
+
+    .navbar-toggler-icon span {
         background: #74BE42;
         width: 75%;
         height: 2px;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         display: flex;
         flex-direction: column;
-        gap:5px;
+        gap: 5px;
         justify-content: center;
         align-items: center;
         background-image: none;
     }
+
     .headerNavigation__section .navi {
         align-items: flex-start;
         margin-top: 20px;
         gap: 15px;
         padding-left: 65px;
     }
+
     .header__section .header_topLeft_contact {
         align-items: flex-start;
         gap: 10px;
         flex-direction: column;
     }
+
     .header__section .header_topRight_dropdown {
         justify-content: center;
         gap: 10px;
         flex-wrap: wrap;
     }
+
     .header__section .header_topRight_dropdown .header__country {
         flex-basis: 35%;
     }
+
     .header__section .header_topRight_dropdown .header__price {
         flex-basis: 15%;
     }
+
     .header__section .header_topRight_dropdown .header__login .login__btn {
         width: 100%;
     }
+
     .header__section .header_topRight_dropdown .header__login {
         width: 100%;
     }
 }
-@media all and (max-width: 768px){
+
+@media all and (max-width: 768px) {
     .service__section {
         padding: 70px 0px;
     }
+
     .booking__section .booking__tab .b__tab {
         width: 100%;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__type {
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__type .plane__class .selector p {
         justify-content: space-between;
     }
-    .plane__class{
+
+    .plane__class {
         width: 100%;
     }
+
     .footer__section {
         padding: 60px 0px;
     }
+
     .footer__section .footer__bottom__text {
         flex-direction: column;
         gap: 15px;
     }
+
     .header__section .header_topLeft_contact {
         gap: 10px;
         align-items: center;
         margin-bottom: 15px;
     }
 }
-@media all and (max-width: 567px){
+
+@media all and (max-width: 567px) {
+    .flightBooking__overview .flight__invoice button {
+    line-height: 30px;
+}
     .flightBnnr___section {
         padding: 140px 0px;
     }
-    
+
 }
-@media all and (max-width: 450px){
+
+@media all and (max-width: 450px) {
+    .flightBooking__overview .proceed button {
+        justify-content: center;
+    width: 100%;
+}
+    .flightBooking__overview .flight__invoice button {
+    width: 100%;
+}
+    .flightBooking__overview .flight__invoice {
+    flex-direction: column;
+}
     .footer__section .footer__newsletter .ft__subcribe input[type="email"] {
         width: 100%;
     }
+
     .footer__section .footer__newsletter .ft__subcribe {
         flex-direction: column;
     }
+
     .footer__section .footer__newsletter .ft__subcribe input[type="submit"] {
         padding: 13px 20px;
         width: 100%;
     }
+
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__type .type {
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
     }
 }
-@media all and (max-width: 350px){}
+
+@media all and (max-width: 350px) {}

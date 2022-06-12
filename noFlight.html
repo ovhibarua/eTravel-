@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eTravel+</title>
+    <!-- bootstra css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- remix icon css -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- fontawsm -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header_topLeft_contact">
+                        <div class="header__phone">
+                            <i class="ri-phone-line"></i>
+                            <p>+9 02129825417</p>
+                        </div>
+                        <div class="header__phone">
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="#">contact@etravelplus.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header_topRight_dropdown">
+                        <div class="header__country">
+                            <div class="country">
+                                <img src="img/US.png" alt="">
+                                <span>english</span>
+                            </div>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="header__price">
+                            <div class="country">
+                                <span>eur</span>
+                            </div>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="header__login">
+                            <button class="login__btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- =================== HEADER NAVIGATION START ==================== -->
+        <section class="headerNavigation__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <nav class="navbar navbar-expand-lg py-3">
+                            <div class="container-fluid">
+                                <a class="navbar-brand header__logo" href="index.html">
+                                    <img src="img/logo 1.png" alt="logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navi">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="flight.html">Flight</a></li>
+                                        <li><a href="hotel.html">Hotels</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li class="menu">
+                                            <a href="#">Company<i class="ri-arrow-down-s-line"></i></a>
+                                            <div class="sub__menu">
+                                                <ul>
+                                                    <li><a href="#">Qatar</a></li>
+                                                    <li><a href="#">Canada</a></li>
+                                                    <li><a href="#">Bangladesh</a></li>
+                                                    <li><a href="#">India</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== HEADER NAVIGATION END ==================== -->
+        <!-- ===================== HEADER FLIGHT BANNER START ========================= -->
+        <section class="noflight__section  booking__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="booking__tab">
+                            <div class="b__tab flightTab__header">
+                                <div class="fly__search">
+                                    <button class="search__fly">Search Flights <i class="ri-search-line"></i></button>
+                                </div>
+                                <nav>
+                                    <div class="nav nav-tabs bk_tabBtn" id="nav-tab" role="tablist">
+                                        <button class="nav-link bk__link1 active" id="nav-home-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                            aria-selected="true">
+                                            <div class="vc">
+                                                <img src="img/Vector3.png" alt="">
+                                            </div>
+                                            Flights
+                                        </button>
+                                        <button class="nav-link bk__link2" id="nav-profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-profile" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">
+                                            <div class="vc">
+                                                <img src="img/Vector (1).png" alt="">
+                                            </div>
+                                            Hotels
+                                        </button>
+                                    </div>
+                                </nav>
+
+                                <div class="tab-content bk_tabContent" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                        aria-labelledby="nav-home-tab" tabindex="0">
+                                        <div class="flight__type">
+                                            <div class="type">
+                                                <p>Flight Type :</p>
+                                                <div class="flight__redio">
+                                                    <label for="male" class="fl__radio">
+                                                        <input type="radio" name="check" id="male" value="OneWay">
+                                                        One way
+                                                        <span></span>
+                                                    </label>
+
+                                                    <label for="female" class="fl__radio">
+                                                        <input type="radio" name="check" id="female" value="roundTrip">
+                                                        Round Trip
+                                                        <span></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="plane__class">
+                                                <div class="selector">
+                                                    <p>Business Class <i class="ri-arrow-down-s-line"></i></p>
+                                                    <!-- <div class="option">
+                                          <ul>
+                                            <li>sadsad</li>
+                                            <li>sadsad</li>
+                                            <li>sadsad</li>
+                                            <li>sadsad</li>
+                                          </ul>
+                                        </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flight__card">
+                                            <div class="fl__card">
+                                                <h6>Flying From</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/123.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Los Angeles</h4>
+                                                        <p>United States</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Flying To</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/546546.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Amsterdam</h4>
+                                                        <p>Netherlands</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Departure Date</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/789879.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Fri, 14 Jun</h4>
+                                                        <!-- <p>United States</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Passengers</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/56546.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>1</h4>
+                                                        <!-- <p>United States</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                        aria-labelledby="nav-profile-tab" tabindex="0">
+                                        <div class="flight__card">
+                                            <div class="fl__card">
+                                                <h6>City Name</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/Icon.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Los Angeles</h4>
+                                                        <p>United States</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Check In Date</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/789879.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Amsterdam</h4>
+                                                        <p>Netherlands</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Check Out Date</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/789879.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>Fri, 14 Jun</h4>
+                                                        <!-- <p>United States</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Travellers</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/56546.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>1</h4>
+                                                        <!-- <p>United States</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl__card">
+                                                <h6>Rooms</h6>
+                                                <div class="fly__up">
+                                                    <div class="up">
+                                                        <img src="img/56546.png" alt="">
+                                                    </div>
+                                                    <div class="flyUp__content">
+                                                        <h4>1</h4>
+                                                        <!-- <p>United States</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== HEADER FLIGHT BANNER END ========================= -->
+        <!-- ==================== F&Q SECTION START ==================== -->
+        <section class="fq__section p-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="destination__title mb-5">
+                            <h2> We are sorry!! no fares available</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="sorry__img">
+                            <img src="img/Business team looking for new people 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== F&Q SECTION END ==================== -->
+        <!-- ====================== SERVICE SECTION START ====================== -->
+        <section class="service__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="service__box">
+                            <div class="service__img">
+                                <img src="img/phone-message 1.png" alt="" srcset="">
+                            </div>
+                            <div class="service__content">
+                                <h6>Need Help? Contact us</h6>
+                                <p>Our support team available 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="service__box">
+                            <div class="service__img" style="background: #FFF2F7;">
+                                <img src="img/cyber-security 1.png" alt="" srcset="">
+                            </div>
+                            <div class="service__content">
+                                <h6>Secure Payment</h6>
+                                <p>Remarkable and 99.9% service uptime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="service__box">
+                            <div class="service__img">
+                                <img src="img/reject 1.png" alt="" srcset="">
+                            </div>
+                            <div class="service__content">
+                                <h6>Cancel Policy</h6>
+                                <p>Cancellation made easy and automated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====================== SERVICE SECTION END ====================== -->
+    </main>
+    <!-- ==================== FOOTER SECTION START ==================== -->
+    <footer class="footer__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-12 mb-4">
+                    <div class="footerLogo__content">
+                        <div class="footer__logo">
+                            <img src="img/logo 1.png" alt="">
+                        </div>
+                        <p>Explore Hundreds of Travel Destinations around the world</p>
+                        <div class="footer__social">
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="#"><i class="ri-messenger-fill"></i></a>
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-6 offset-xl-1 mb-4">
+                    <div class="footer__list">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="#">Flight</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-6 mb-4">
+                    <div class="footer__list">
+                        <h6>Terms of Use</h6>
+                        <ul>
+                            <li><a href="#">Cookies Policy</a></li>
+                            <li><a href="termAndCon.html">Privacy Policy</a></li>
+                            <li><a href="#">How to Book</a></li>
+                            <li><a href="f&q.html">F.A.Q</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-7 mb-4">
+                    <div class="footer__newsletter">
+                        <h6>Join Our Newsletter</h6>
+                        <form class="ft__subcribe">
+                            <input type="email" name="email" id="email" placeholder="Your email address" required>
+                            <input type="submit" value="Subscribe">
+                        </form>
+                        <p>* Will send you weekly updates for your better
+                            finance management.</p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="footer__bottom__text">
+                        <p>Copyright @ eTravelPlus 2022. All Rights Reserved.</p>
+                        <div class="money">
+                            <img src="img/Payment Icons (1).png" alt="" srcset="">
+                            <img src="img/Payment Icons (2).png" alt="" srcset="">
+                            <img src="img/Payment Icons.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==================== FOOTER SECTION END ==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
