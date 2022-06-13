@@ -93,6 +93,12 @@
 }
 
 @media all and (max-width: 992px) {
+    .setmposConfirm__box {
+        width: 100%;
+    }
+    .cardDetails__section .bookingCard__box .bookigCard {
+        width: 100%;
+    }
     .testimonial__section .testimonial__title p {
         font-size: 16px;
     }
@@ -244,6 +250,61 @@
 }
 
 @media all and (max-width: 768px) {
+    .setmposConfirm__box .setmposConfirm__list ul li span {
+        font-size: 16px;
+    }
+    .setmposConfirm__box .setmpos__footer .sms__password {
+        flex-direction: column;
+    }
+    .setmposConfirm__box p {
+        font-size: 14px;
+    }
+    .cardDetails__section {
+        padding: 100px 0px;
+    }
+    .pos__pay {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+    .cardDetails__section .bookingCard__box .bookigCard .card__input input {
+        width: 100%;
+    }
+    .cardDetails__section .bookingCard__box .bookigCard {
+        padding: 35px;
+    }
+    .cardDetails__section .bookingCard__box {
+        padding: 30px;
+    }
+    .cardDetails__section .bookingCard__box .bookigCard .card__input {
+        flex-direction: column;
+    }
+    .proceed__option{
+        width: 100%;
+        text-align: center;
+    }
+    .setmpos{
+        width: 100%;
+    }
+    .card__title{
+        width: 100%;
+    }
+    .cardDetails__section .bookingCard__box .card__title {
+        flex-direction: column;
+    }
+    .flightDetails__section .fl__travelInfo .info .info__input .email h5 {
+        width: 100%;
+    }
+    .flightDetails__section .fl__personalInfo .info .info__input input {
+        width: 100%;
+    }
+    .info__input{
+        width: 100%;
+    }
+    .flightDetails__section .fl__personalInfo .info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .testimonial__section {
         padding: 100px 0px;
     }
@@ -298,6 +359,9 @@
 }
 
 @media all and (max-width: 567px) {
+    .cardDetails__section .bookingCard__box .card__title h6 {
+        font-size: 20px;
+    }
     .flightBooking__overview .flight__invoice button {
     line-height: 30px;
 }

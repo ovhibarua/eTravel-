@@ -591,19 +591,36 @@ a {
 
 .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
   border-radius: 10px;
-  padding: 20px 40px;
+  padding: 20px 30px;
   border: solid 1px var(--bs-gray-200);
   -webkit-box-shadow: 0 0 9px -8px black;
           box-shadow: 0 0 9px -8px black;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card h6 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
+  margin-bottom: 20px;
   color: #000000;
-  margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
 }
 
 .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card .fly__up {
@@ -620,17 +637,35 @@ a {
   width: 22px;
 }
 
-.booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card .flyUp__content h4 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #000000;
+.booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card .flyUp__content input {
+  border: solid 1px #C7E5B3;
+  padding: 7px 15px;
+  border-radius: 10px;
+  background: #f1f8ec47;
+  -webkit-box-shadow: 0 0px 6px -2px #c7e5b3;
+          box-shadow: 0 0px 6px -2px #c7e5b3;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
 }
 
-.booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card .flyUp__content p {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
+.flyUp__content {
+  width: 100%;
+}
+
+.flyUp__content h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
 }
 
 .whyChoose__section {
@@ -2073,6 +2108,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #667085;
+  text-align: center;
 }
 
 .pos__img {
@@ -2134,6 +2170,7 @@ a {
   padding: 20px 80px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: block;
 }
 
 .pos__backInvoice a:hover {
@@ -2420,6 +2457,12 @@ a {
 }
 
 @media all and (max-width: 992px) {
+  .setmposConfirm__box {
+    width: 100%;
+  }
+  .cardDetails__section .bookingCard__box .bookigCard {
+    width: 100%;
+  }
   .testimonial__section .testimonial__title p {
     font-size: 16px;
   }
@@ -2579,6 +2622,78 @@ a {
 }
 
 @media all and (max-width: 768px) {
+  .setmposConfirm__box .setmposConfirm__list ul li span {
+    font-size: 16px;
+  }
+  .setmposConfirm__box .setmpos__footer .sms__password {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .setmposConfirm__box p {
+    font-size: 14px;
+  }
+  .cardDetails__section {
+    padding: 100px 0px;
+  }
+  .pos__pay {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+    width: 100%;
+  }
+  .cardDetails__section .bookingCard__box .bookigCard .card__input input {
+    width: 100%;
+  }
+  .cardDetails__section .bookingCard__box .bookigCard {
+    padding: 35px;
+  }
+  .cardDetails__section .bookingCard__box {
+    padding: 30px;
+  }
+  .cardDetails__section .bookingCard__box .bookigCard .card__input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .proceed__option {
+    width: 100%;
+    text-align: center;
+  }
+  .setmpos {
+    width: 100%;
+  }
+  .card__title {
+    width: 100%;
+  }
+  .cardDetails__section .bookingCard__box .card__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flightDetails__section .fl__travelInfo .info .info__input .email h5 {
+    width: 100%;
+  }
+  .flightDetails__section .fl__personalInfo .info .info__input input {
+    width: 100%;
+  }
+  .info__input {
+    width: 100%;
+  }
+  .flightDetails__section .fl__personalInfo .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .testimonial__section {
     padding: 100px 0px;
   }
@@ -2638,6 +2753,9 @@ a {
 }
 
 @media all and (max-width: 567px) {
+  .cardDetails__section .bookingCard__box .card__title h6 {
+    font-size: 20px;
+  }
   .flightBooking__overview .flight__invoice button {
     line-height: 30px;
   }

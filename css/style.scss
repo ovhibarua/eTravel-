@@ -377,7 +377,7 @@ a {
                                 padding-left: 30px;
                                 cursor: pointer;
 
-                                input[type="radio"]:checked ~ span::after{
+                                input[type="radio"]:checked~span::after {
                                     opacity: 1;
                                 }
 
@@ -444,17 +444,23 @@ a {
 
                     .fl__card {
                         border-radius: 10px;
-                        padding: 20px 40px;
+                        padding: 20px 30px;
                         border: solid 1px var(--bs-gray-200);
                         box-shadow: 0 0 9px -8px black;
                         width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
 
                         h6 {
                             font-weight: 500;
-                            font-size: 16px;
+                            font-size: 17px;
                             line-height: 24px;
+                            margin-bottom: 20px;
                             color: #000000;
-                            margin-bottom: 12px;
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
                         }
 
                         .fly__up {
@@ -470,23 +476,29 @@ a {
                         }
 
                         .flyUp__content {
-                            h4 {
-                                font-weight: 700;
-                                font-size: 20px;
-                                line-height: 30px;
-                                color: #000000;
-                            }
-
-                            p {
-                                font-weight: 400;
-                                font-size: 12px;
-                                line-height: 18px;
+                            input {
+                                border: solid 1px #C7E5B3;
+                                padding: 7px 15px;
+                                border-radius: 10px;
+                                background: #f1f8ec47;
+                                box-shadow: 0 0px 6px -2px #c7e5b3;
+                                flex-direction: row-reverse;
+                                width: 100%;
                             }
                         }
                     }
                 }
             }
         }
+    }
+}
+.flyUp__content{
+    width: 100%;
+    h4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
     }
 }
 
@@ -1758,6 +1770,7 @@ a {
                 font-size: 16px;
                 line-height: 24px;
                 color: #667085;
+                text-align: center;
             }
 
         }
@@ -1817,6 +1830,7 @@ a {
         color: #FFFFFF;
         padding: 20px 80px;
         transition: 0.3s;
+        display: block;
 
         &:hover {
             background: #f04438e0;
