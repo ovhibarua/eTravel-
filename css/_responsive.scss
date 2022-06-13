@@ -1,4 +1,28 @@
 @media all and (max-width: 1400px) {
+    .testimonial__section .testimonialSlider .testimonial__content .under__box p {
+        height: auto;
+    }
+    .destination__section .destination .swiper-button-prev {
+        left: 88%;
+    }
+    .whyChoose__section .choose__box .choose__vc img {
+        display: none;
+    }
+    .whyChoose__section .choose__box2 {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .whyChoose__section .choose__box h4 {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .dotLeft {
+        left: 0;
+    }
+    .dotRight {
+        right: 0;
+    }
     .flightDetails__section .fl__personalInfo .info {
         justify-content: flex-start;
     }
@@ -36,6 +60,12 @@
 }
 
 @media all and (max-width: 1200px) {
+    .destination__section .destination .swiper-button-prev {
+        left: 86%;
+    }
+    .booking__section .booking__tab .b__tab {
+        margin-top: -285px;
+    }
     .service__section {
         padding: 120px 0px;
     }
@@ -63,6 +93,33 @@
 }
 
 @media all and (max-width: 992px) {
+    .testimonial__section .testimonial__title p {
+        font-size: 16px;
+    }
+    .testimonial__section .testimonial__title h2 {
+        font-size: 44px;
+    }
+    .destination__section .destination__title h2 {
+        font-size: 44px;
+    }
+    .destination__section .destination .swiper-button-prev {
+        left: 82%;
+    }
+    .whyChoose__section .whyChoose__title h2 {
+        font-size: 44px;;
+    }
+    .booking__section .booking__tab .b__tab {
+        margin-top: -275px;
+    }
+    .heroBnnr__section {
+        padding: 150px 0px 295px;
+    }
+    .heroBnnr__section .banner__content h6 {
+        font-size: 22px;
+    }
+    .heroBnnr__section .banner__content .heading h1 {
+        font-size: 43px;
+    }
     .flightBooking__overview .flightOverview__title p span {
     font-size: 25px;
 }
@@ -187,6 +244,21 @@
 }
 
 @media all and (max-width: 768px) {
+    .testimonial__section {
+        padding: 100px 0px;
+    }
+    .destination__section {
+        padding: 45px 0px 90px;
+    }
+    .destination__section .destination .swiper-button-prev {
+        left: 76%;
+    }
+    .dotLeft {
+        display: none;
+    }
+    .dotRight {
+        display: none;
+    }
     .service__section {
         padding: 70px 0px;
     }
@@ -236,6 +308,9 @@
 }
 
 @media all and (max-width: 450px) {
+    .destination__section .destination .swiper-button-prev {
+        left: 65%;
+    }
     .flightBooking__overview .proceed button {
         justify-content: center;
     width: 100%;
