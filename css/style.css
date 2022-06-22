@@ -337,7 +337,7 @@ a {
 }
 
 .heroBnnr__section {
-  padding: 150px 0px 495px;
+  padding: 25px 0px 495px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2536,7 +2536,7 @@ a {
     font-size: 38px;
   }
   .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
-    width: 100%;
+    width: 48%;
   }
   .service__section .service__box .service__img {
     width: 20%;
@@ -2622,6 +2622,12 @@ a {
 }
 
 @media all and (max-width: 768px) {
+  .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
+    width: 100%;
+  }
+  .heroBnnr__section .banner__content .heading h1 {
+    line-height: 55px;
+  }
   .flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

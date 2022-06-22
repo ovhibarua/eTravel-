@@ -2,27 +2,34 @@
     .testimonial__section .testimonialSlider .testimonial__content .under__box p {
         height: auto;
     }
+
     .destination__section .destination .swiper-button-prev {
         left: 88%;
     }
+
     .whyChoose__section .choose__box .choose__vc img {
         display: none;
     }
+
     .whyChoose__section .choose__box2 {
         background: none;
         border: none;
         box-shadow: none;
     }
+
     .whyChoose__section .choose__box h4 {
         font-size: 17px;
         line-height: 30px;
     }
+
     .dotLeft {
         left: 0;
     }
+
     .dotRight {
         right: 0;
     }
+
     .flightDetails__section .fl__personalInfo .info {
         justify-content: flex-start;
     }
@@ -63,9 +70,11 @@
     .destination__section .destination .swiper-button-prev {
         left: 86%;
     }
+
     .booking__section .booking__tab .b__tab {
         margin-top: -285px;
     }
+
     .service__section {
         padding: 120px 0px;
     }
@@ -96,50 +105,66 @@
     .setmposConfirm__box {
         width: 100%;
     }
+
     .cardDetails__section .bookingCard__box .bookigCard {
         width: 100%;
     }
+
     .testimonial__section .testimonial__title p {
         font-size: 16px;
     }
+
     .testimonial__section .testimonial__title h2 {
         font-size: 44px;
     }
+
     .destination__section .destination__title h2 {
         font-size: 44px;
     }
+
     .destination__section .destination .swiper-button-prev {
         left: 82%;
     }
+
     .whyChoose__section .whyChoose__title h2 {
-        font-size: 44px;;
+        font-size: 44px;
+        ;
     }
+
     .booking__section .booking__tab .b__tab {
         margin-top: -275px;
     }
+
     .heroBnnr__section {
         padding: 150px 0px 295px;
     }
+
     .heroBnnr__section .banner__content h6 {
         font-size: 22px;
     }
+
     .heroBnnr__section .banner__content .heading h1 {
         font-size: 43px;
     }
+
     .flightBooking__overview .flightOverview__title p span {
-    font-size: 25px;
-}
+        font-size: 25px;
+    }
+
     .flightBooking__overview .proceed button {
-    font-size: 17px;
-}
+        font-size: 17px;
+    }
+
     .flightBooking__overview .flight__invoice button {
-    justify-content: center;
-    width: 50%;
-    font-size: 17px;
-}
+        justify-content: center;
+        width: 50%;
+        font-size: 17px;
+    }
+
     .flightBooking__overview .proceed {
-    justify-content: center;
-}
+        justify-content: center;
+    }
+
     .flightBooking__overview .flightOverview__title p {
         font-size: 25px;
     }
@@ -173,7 +198,7 @@
     }
 
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
-        width: 100%;
+        width: 48%;
     }
 
     .service__section .service__box .service__img {
@@ -250,85 +275,117 @@
 }
 
 @media all and (max-width: 768px) {
+    .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
+        width: 100%;
+    }
+
+    .heroBnnr__section .banner__content .heading h1 {
+        line-height: 55px;
+    }
+
     .flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDeparture {
         flex-direction: column;
         gap: 25px;
         align-items: center;
     }
+
     .flightDetails__section .fl__personalInfo .fl__checkout .flCheck__box .flDuration {
         flex-direction: column;
         gap: 35px;
     }
+
     .setmposConfirm__box .setmposConfirm__list ul li span {
         font-size: 16px;
     }
+
     .setmposConfirm__box .setmpos__footer .sms__password {
         flex-direction: column;
     }
+
     .setmposConfirm__box p {
         font-size: 14px;
     }
+
     .cardDetails__section {
         padding: 100px 0px;
     }
+
     .pos__pay {
         flex-direction: column;
         gap: 25px;
         width: 100%;
     }
+
     .cardDetails__section .bookingCard__box .bookigCard .card__input input {
         width: 100%;
     }
+
     .cardDetails__section .bookingCard__box .bookigCard {
         padding: 35px;
     }
+
     .cardDetails__section .bookingCard__box {
         padding: 30px;
     }
+
     .cardDetails__section .bookingCard__box .bookigCard .card__input {
         flex-direction: column;
     }
-    .proceed__option{
+
+    .proceed__option {
         width: 100%;
         text-align: center;
     }
-    .setmpos{
+
+    .setmpos {
         width: 100%;
     }
-    .card__title{
+
+    .card__title {
         width: 100%;
     }
+
     .cardDetails__section .bookingCard__box .card__title {
         flex-direction: column;
     }
+
     .flightDetails__section .fl__travelInfo .info .info__input .email h5 {
         width: 100%;
     }
+
     .flightDetails__section .fl__personalInfo .info .info__input input {
         width: 100%;
     }
-    .info__input{
+
+    .info__input {
         width: 100%;
     }
+
     .flightDetails__section .fl__personalInfo .info {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .testimonial__section {
         padding: 100px 0px;
     }
+
     .destination__section {
         padding: 45px 0px 90px;
     }
+
     .destination__section .destination .swiper-button-prev {
         left: 76%;
     }
+
     .dotLeft {
         display: none;
     }
+
     .dotRight {
         display: none;
     }
+
     .service__section {
         padding: 70px 0px;
     }
@@ -373,17 +430,21 @@
         width: 100%;
         gap: 8px;
     }
+
     .flightDetails__section .fl__personalInfo .fl__checkout .nav .nav-link {
         padding: 5px 10px;
         width: 100%;
         border-radius: 10px !important;
     }
+
     .cardDetails__section .bookingCard__box .card__title h6 {
         font-size: 20px;
     }
+
     .flightBooking__overview .flight__invoice button {
-    line-height: 30px;
-}
+        line-height: 30px;
+    }
+
     .flightBnnr___section {
         padding: 140px 0px;
     }
@@ -394,16 +455,20 @@
     .destination__section .destination .swiper-button-prev {
         left: 65%;
     }
+
     .flightBooking__overview .proceed button {
         justify-content: center;
-    width: 100%;
-}
+        width: 100%;
+    }
+
     .flightBooking__overview .flight__invoice button {
-    width: 100%;
-}
+        width: 100%;
+    }
+
     .flightBooking__overview .flight__invoice {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
+
     .footer__section .footer__newsletter .ft__subcribe input[type="email"] {
         width: 100%;
     }
