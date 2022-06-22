@@ -276,7 +276,7 @@
 
 @media all and (max-width: 768px) {
     .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
-        width: 100%;
+        width: 47%;
     }
 
     .heroBnnr__section .banner__content .heading h1 {
@@ -425,6 +425,9 @@
 }
 
 @media all and (max-width: 567px) {
+    .booking__section .booking__tab .b__tab .bk_tabContent .flight__card .fl__card {
+        width: 100%;
+    }
     .flightDetails__section .fl__personalInfo .fl__checkout .nav {
         justify-content: center;
         width: 100%;
